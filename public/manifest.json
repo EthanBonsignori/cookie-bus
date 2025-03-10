@@ -2,16 +2,17 @@
   "short_name": "Cookie Bus",
   "name": "Cookie Bus",
   "version": "1.0.5",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Cookie Bus is an extremely simple ONE CLICK chrome extension to import cookies",
   "icons": {
     "16": "icon-16.png",
     "48": "icon-48.png",
     "128": "icon-128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icon-16.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["cookies", "tabs", "http://*/*", "https://*/*"]
+  "permissions": ["cookies", "tabs", "storage"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"]
 }
