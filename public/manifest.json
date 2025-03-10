@@ -13,6 +13,6 @@
     "default_icon": "icon-16.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["cookies", "tabs", "storage"],
-  "optional_host_permissions": ["https://*/*", "http://*/*"]
+  "permissions": ["cookies", "tabs", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }
